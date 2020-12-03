@@ -15,7 +15,10 @@ pip install -r requirements.txt
 
 ## Usage
 ### Dataset
-The collected EdPolCommunity dataset can be found in the folder on Google Drive
+The collected EdPolCommunity dataset can be found in the dataset folder on Google Drive
+
+### Pretrained model
+The pretrained model checkpoints can be found in the checkpoints folder on Google Drive
 
 ### Inference
 Sample code for inference using the PFHDRNet model
