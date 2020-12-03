@@ -20,7 +20,7 @@ The collected EdPolCommunity dataset can be found in the folder on Google Drive
 ### Inference
 Sample code for inference using the PFHDRNet model
 ```
-python sample_code.py -i0 PATH/TO/im0_in_p0.png -i45 PATH/TO/im0_in_p45.png -i90 PATH/TO/im0_in_p90.png -i135 PATH/TO/im0_in_p135.png -gpu 0,0 -dm model/downexposure_PFHDRNet.chainer -um model/upexposure_PFHDRNet.chainer -o output/output_hdr
+python sample_code.py -i0 PATH/TO/im_in_p0.png -i45 PATH/TO/im_in_p45.png -i90 PATH/TO/im_in_p90.png -i135 PATH/TO/im_in_p135.png -gpu 0,0 -dm model/downexposure_PFHDRNet.chainer -um model/upexposure_PFHDRNet.chainer -o output/output_hdr
 ```
 Training code will be added soon.
 
