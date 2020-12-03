@@ -4,7 +4,7 @@ Deep HDR Reconstruction Based On the Polarization Camera
 ## Requirements
 * Python 3.8.5
 * Chainer 7.7.0
-* OpenCV 4.4.0
+* OpenCV 4.1.2.30
 * Numpy 1.19.1
 * CUDA 10.2
 * cuDNN 7.6.5
@@ -17,14 +17,15 @@ pip install -r requirements.txt
 ### Dataset
 The collected EdPolCommunity dataset can be found in the folder on Google Drive
 
-### Pretrained model
-The pretrained model checkpoints can be found in the folder on Google Drive
-
 ### Inference
 Sample code for inference using the PFHDRNet model
 ```
-python sample_code.py -i0 PATH/TO/pol_deg0.png -i45 PATH/TO/pol_deg45.png -i90 PATH/TO/pol_deg90.png -i135 PATH/TO/pol_deg135.png -gpu 0,0 -dm model/downexposure_PFHDRNet.chainer -um model/upexposure_PFHDRNet.chainer -o output/output_hdr
+python sample_code.py -i0 PATH/TO/im0_in_p0.png -i45 PATH/TO/im0_in_p45.png -i90 PATH/TO/im0_in_p90.png -i135 PATH/TO/im0_in_p135.png -gpu 0,0 -dm model/downexposure_PFHDRNet.chainer -um model/upexposure_PFHDRNet.chainer -o output/output_hdr
 ```
 Training code will be added soon.
 
+### Supplementary materials
+Due to the space limit, we provide more visual comparisons in the supplementary material. Namely, we provide more qualitative results on: 1) PFHDRNet and its variants. 2) PFHDRNet and the state-of-the-art methods.
+
 ## Reference
+If you find this work useful in your research, please cite:
