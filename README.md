@@ -18,7 +18,7 @@ pip install -r requirements.txt
 The collected EdPolCommunity dataset can be found in the dataset folder on Google Drive
 
 ### Pretrained model
-The pretrained model checkpoints can be found in the checkpoints folder on Google Drive
+The pretrained model checkpoints can be found in the checkpoints folder on [Google Drive](https://drive.google.com/file/d/1luFzTFl1top5VSuZWwZz676xugn7WKf_/view?usp=sharing)
 
 ### Inference
 Sample code for inference using the PFHDRNet model
