@@ -28,7 +28,7 @@ python sample_code.py -i0 PATH/TO/im_in_p0.png -i45 PATH/TO/im_in_p45.png -i90 P
 Training code will be added soon.
 
 ### Supplementary materials
-Due to the space limit, we provide more visual comparisons in the supplementary material PDF. Namely, we provide more qualitative results on: 1) PFHDRNet and its variants. 2) PFHDRNet and the state-of-the-art methods.
+Due to the space limit, we provide more visual comparisons in the supplementary material PDF. Namely, we provide more qualitative results on: 1) PFHDRNet and its variants. 2) PFHDRNet and the state-of-art methods.
 
 ## Reference
 If you find this work useful in your research, please cite:
