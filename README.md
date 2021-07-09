@@ -32,3 +32,12 @@ Due to the space limit, we provide more visual comparisons in the supplementary 
 
 ## Reference
 If you find this work useful in your research, please cite:
+```
+@inproceedings{ting2021,
+  title={Deep Snapshot HDR Reconstruction Based on the Polarization Camera},
+  author={Ting, Juiwen and Wu, Xuesong and Hu, Kangkang and Zhang, Hong},
+  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},
+  year={2021},
+  organization={IEEE}
+}
+```
