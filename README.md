@@ -1,4 +1,4 @@
-# Deep-Polarized-HDRreconstruction
+# Deep-Polarized-HDR reconstruction
 Deep HDR Reconstruction Based On the Polarization Camera
 
 ## Requirements
