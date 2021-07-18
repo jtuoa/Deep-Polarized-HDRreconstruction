@@ -1,4 +1,4 @@
-# Deep-Polarized-HDRreconstruction
+# Deep-Polarized-HDR reconstruction
 Deep HDR Reconstruction Based On the Polarization Camera
 
 ## Requirements
@@ -15,7 +15,10 @@ pip install -r requirements.txt
 
 ## Usage
 ### Dataset
-The collected EdPolCommunity dataset can be found in the folder on Google Drive
+The collected EdPolCommunity dataset can be found in the dataset folder on Google Drive: [pol_outdoor1](https://drive.google.com/file/d/18nhczTSCFMB4_oUZZzyF_kHhqNCt8MGs/view?usp=sharing), [pol_outdoor2](https://drive.google.com/file/d/1za16n_CeqPrNUAkFdxjT2Hf_bTB3cthi/view?usp=sharing)
+
+### Pretrained model
+The pretrained model checkpoints can be found in the checkpoints folder on [Google Drive](https://drive.google.com/file/d/1luFzTFl1top5VSuZWwZz676xugn7WKf_/view?usp=sharing)
 
 ### Inference
 Sample code for inference using the PFHDRNet model
@@ -25,7 +28,16 @@ python sample_code.py -i0 PATH/TO/im_in_p0.png -i45 PATH/TO/im_in_p45.png -i90 P
 Training code will be added soon.
 
 ### Supplementary materials
-Due to the space limit, we provide more visual comparisons in the supplementary material PDF. Namely, we provide more qualitative results on: 1) PFHDRNet and its variants. 2) PFHDRNet and the state-of-the-art methods.
+Due to the space limit, we provide more visual comparisons in the supplementary material PDF. Namely, we provide more qualitative results on: 1) Dataset images. 2) PFHDRNet and its variants. 3) PFHDRNet and the state-of-art methods.
 
 ## Reference
 If you find this work useful in your research, please cite:
+```
+@inproceedings{ting2021,
+  title={Deep Snapshot HDR Reconstruction Based on the Polarization Camera},
+  author={Ting, Juiwen and Wu, Xuesong and Hu, Kangkang and Zhang, Hong},
+  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},
+  year={2021},
+  organization={IEEE}
+}
+```
