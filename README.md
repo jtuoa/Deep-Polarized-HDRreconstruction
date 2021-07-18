@@ -17,6 +17,11 @@ pip install -r requirements.txt
 ### Dataset
 The collected EdPolCommunity dataset can be found in the dataset folder on Google Drive: [pol_outdoor1](https://drive.google.com/file/d/18nhczTSCFMB4_oUZZzyF_kHhqNCt8MGs/view?usp=sharing), [pol_outdoor2](https://drive.google.com/file/d/1za16n_CeqPrNUAkFdxjT2Hf_bTB3cthi/view?usp=sharing)
 
+Use data_preprocess.py to preprocess the downloaded raw dataset to create input and output images for the network.
+```
+python data_preprocess.py -data PATH/TO/DATASET -crf ./crf.txt
+```
+
 ### Pretrained model
 The pretrained model checkpoints can be found in the checkpoints folder on [Google Drive](https://drive.google.com/file/d/1luFzTFl1top5VSuZWwZz676xugn7WKf_/view?usp=sharing)
 
